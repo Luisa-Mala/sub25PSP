@@ -24,7 +24,7 @@ p{
 }
 
 /* -------------- */
-/* Encabezado - Header */
+
 
 .contenido-header{
     width: 100%;
@@ -48,10 +48,6 @@ p{
     color: whitesmoke
 }
 
-/* ----------------- */
-/* Aquí se le va a dar estilo a los encabezados del menú */
-/* ----------------- */
-
 .menu {
     background-color: var(--green-dark);
     width: 100% ;
@@ -68,7 +64,6 @@ p{
 
 }
 
-/* ----Diseño a los apartados del menú---*/
 
 .menu a {
     display: inline-block;
@@ -82,7 +77,6 @@ p{
 
 }
 
-/* ----Efecto a los apartados del menú---*/
 
 .menu a:hover{
     transform: translateY(18px)  ;
@@ -90,14 +84,11 @@ p{
 
 }
 
-/* ----Diseño de la sección Política de Ventas---*/
 
 .politica  {
     margin-bottom: 60px;
 
 }
-
-/* ----Diseño Texto del titulo---*/
 
 
 .titulo {
@@ -117,7 +108,6 @@ p{
     position: relative;
 }
 
-/* ----línea del Titulo---*/
 
 .titulo::after {
     content: "";
@@ -130,7 +120,6 @@ p{
     z-index: 1;
 }
 
-/* ----Diseño del Subtitulo---*/
 
 .politica .subtitulo {
     width: 70%;
@@ -149,7 +138,6 @@ p{
     transition: .3s ease all ;
 }
 
-/* ----Diseño de efecto del Subtitulo---*/
 
 .politica .enlace:hover {
     text-decoration: none;
@@ -157,7 +145,6 @@ p{
     border-bottom: 1px solid var(--green-ligth);
 }
 
-/* ----Diseño de la sección Productos---*/
 
 .productos {
     background: var(--gray-dark);
@@ -165,7 +152,6 @@ p{
     margin-bottom: 60px;    
 }
 
-/* ----Diseño Texto del subtitulo---*/
 
 .productos .subtitulo {
     width: 70%;
@@ -175,7 +161,6 @@ p{
     margin-bottom: 50px;
 }
 
-/* ----Diseño de los productos---*/
 
 .productos .producto {
     position: relative;
@@ -194,14 +179,12 @@ p{
     transition: .5s ease;
 }
 
-/* ----Capa flotante sobre el producto---*/
 
 .productos .producto:hover .capa{
     width: 93%;
     opacity: .8;
 }
 
-/* ----Diseño texto descripción producto sobre la capa---*/
 
 .productos .producto .capa-texto {
     top: 40%;
@@ -216,7 +199,6 @@ p{
     border-bottom: 1px solid white;
 }
 
-/* ----Diseño apartado otros productos---*/
 
 .productos .btn-productos {
     background-color: var(--green-ligth);
@@ -229,7 +211,6 @@ p{
     transition: .1s ease;
 }
 
-/* ----Diseño apartado otros productos para cuando se pasa el cursor---*/
 
 .productos .btn-productos:hover {
     background-color: transparent ;
@@ -237,7 +218,6 @@ p{
     color: var(--green-ligth);
 }
 
-/* ----Diseño del separador---*/
 
 .separador {
     width: 100%;
@@ -245,12 +225,10 @@ p{
     background-image: url(../Imágenes_Proyecto/Fondo\ Separador_2.jpg) ;
     background-position: center;
     background-size: cover;
-/* ----Con esto la imagen se queda "Pegada"---*/
-        background-attachment: fixed;
+    background-attachment: fixed;
         margin-bottom: 80px;
 }
 
-/* ----Diseño del texto de la imagen del separador"---*/
 
 .separador q {
     height: 100%;
@@ -263,13 +241,9 @@ p{
     padding: 130px 80px;
 }
 
-/* ----Diseño del acerca de"---*/
-
 .acerca-de {
     margin-bottom: 60px;
 }
-
-/* ----Diseño del apartado de consolas"---*/
 
 .consolas {
     margin-bottom: 100px;
@@ -281,7 +255,6 @@ p{
     object-fit: cover;
 }
 
-/* ----Diseño pie de página"---*/
 
 .redes-sociales {
     padding: 10px;
