@@ -13,8 +13,7 @@
       integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
       crossorigin="anonymous"
       />
-      <link rel="stylesheet" href="./css/index.css">
-
+      <link rel="stylesheet" href="./assets/css/index.css">
 
     <!-- JavaScript Bundle with Popper -->
     <script
@@ -102,5 +101,302 @@
       </nav>
     </header>
 
-    <!---Inicio Jeisson-->
+     <!-- carrousel de imágenes -->
+     <section>
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <img src="https://media.vandal.net/m/7-2020/20207241783010_1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item active">
+            <img src="https://compass-ssl.xbox.com/assets/8d/ac/8dac2278-aef9-4a8c-bd68-739693d639c2.jpg?n=Halo-Franchise-2020_Super-Hero-1400_1920x1080.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./assets/images/MW_OP_TOUT.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+
+    <!-- Buscador -->
+
+    <section>
+      <div class="container-fluid bg-dark p-3">
+        <div class="row justify-content-center">
+          <div class="col-sm-3">
+            <input type="text" class="form-control" id="search" placeholder="Buscar..">
+          </div>
+          <div class="col-sm-2">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Categorías</option>
+              <option value="1">PlayStation </option>
+              <option value="2">Xbox</option>
+              <option value="3">Nintendo</option>
+              <option value="4">Retro</option>
+            </select>
+          </div>
+          <div class="col-sm-2">
+            <div class="text-center"><button class="btn btn-outline-light">Buscar</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!---Sección juegos-->
+    <section class="py-5">
+      <h2 class="text-center">Video juegos</h2>
+      <div class="container px-4 px-lg-5 mt-5">
+          <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://exitocol.vtexassets.com/arquivos/ids/740538/Videojuego-Fifa-20-Rola-PS4.jpg?v=637051254976000000" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Fifa 20</h5>
+                              <!-- Product price-->
+                              $40.00 - $80.00
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Añadir al carritoo</a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col mb-5">
+                <div class="card h-100">
+                    <!-- Sale badge-->
+                    <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                    <!-- Product image-->
+                    <img class="card-img-top" src="https://www.retroplace.com/pics/xboxseriesx/packshots/185217--halo-infinite.png" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">Halo infinite</h5>
+                            <!-- Product price-->
+                            <span class="text-muted text-decoration-line-through">$50.00</span>
+                            $25.00
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Añadir al carrito</a></div>
+                    </div>
+                </div>
+            </div>
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Sale badge-->
+                      <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://panamericana.vteximg.com.br/arquivos/ids/331431-1080-1080/juego-call-of-duty-modern-warfare-ps4-47875884205.jpg?v=636996017284830000" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Call of duty modern warfare</h5>
+                              <!-- Product reviews-->
+                              <div class="d-flex justify-content-center small text-warning mb-2">
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                              </div>
+                              <!-- Product price-->
+                              <span class="text-muted text-decoration-line-through">$20.00</span>
+                              $18.00
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Añadir al carrito</a></div>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://metrocolombiafood.vteximg.com.br/arquivos/ids/254367-1000-1000/image-7cff7ea33a6a4fbbb95f8bbb2590f737.jpg?v=637146182485800000" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Gears of war 4</h5>
+                              <!-- Product reviews-->
+                              <div class="d-flex justify-content-center small text-warning mb-2">
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                              </div>
+                              <!-- Product price-->
+                              $40.00
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Añadir al carrito</a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Sale badge-->
+                      <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://jose2001.neocities.org/Juegos%20PS4/Fortnite.jpg" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Fortnite</h5>
+                              <!-- Product price-->
+                              <span class="text-muted text-decoration-line-through">$50.00</span>
+                              $25.00
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Añadir al carrito</a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://www.ktronix.com/medias/047875785489-001-750Wx750H?context=bWFzdGVyfGltYWdlc3wzMTA4NDR8aW1hZ2UvanBlZ3xpbWFnZXMvaGMyL2hhMi85ODIyMDEwMTc5NjE0LmpwZ3xhNTRiMGNmMWEwOGRjZmRjZjc4ZTFjNmFlNThmYjc1MTUwMTNlYmQ2ZGQ4NmI3OTkyNWFlMWZmMzU0ODQ1NDFm" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Crash bandicoot 4</h5>
+                              <!-- Product price-->
+                              $120.00 - $280.00
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Añadir al carritoo</a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Sale badge-->
+                      <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://www.alkosto.com/medias/045496594305-001-750Wx750H?context=bWFzdGVyfGltYWdlc3w2OTg3NnxpbWFnZS9qcGVnfGltYWdlcy9oNGUvaGFhLzg4MTAzMDE4MTY4NjIuanBnfGQwY2VlZGEzYTNmMzgyYWE0NzdmZjA5ZGMxYWY0MDg4NzRlZWJjMDlkM2Y4MzQ0MGJiZjEzOWZkNDA1MGUzYzM" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Super mario party</h5>
+                              <!-- Product reviews-->
+                              <div class="d-flex justify-content-center small text-warning mb-2">
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                              </div>
+                              <!-- Product price-->
+                              <span class="text-muted text-decoration-line-through">$20.00</span>
+                              $18.00
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Añadir al carrito</a></div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col mb-5">
+                  <div class="card h-100">
+                      <!-- Product image-->
+                      <img class="card-img-top" src="https://elcos.es/wp-content/uploads/2021/03/art_nin-ns-j-pok-esc_1.jpg" alt="..." />
+                      <!-- Product details-->
+                      <div class="card-body p-4">
+                          <div class="text-center">
+                              <!-- Product name-->
+                              <h5 class="fw-bolder">Pokemon scudo</h5>
+                              <!-- Product reviews-->
+                              <div class="d-flex justify-content-center small text-warning mb-2">
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                                  <div class="bi-star-fill"></div>
+                              </div>
+                              <!-- Product price-->
+                              $40.00
+                          </div>
+                      </div>
+                      <!-- Product actions-->
+                      <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                          <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Añadir al carrito</a></div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+ <!-- Registrate -->
+ <section>
+  <div class="container-fluid p-0">
+    <div class="h-100 p-5 text-white bg-dark ">
+      <div class="row align-items-center justify-content-around">
+        <div class="col-sm-6">
+          <h2>Registrate en el mundo gamer</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe odio animi quibusdam recusandae, aspernatur eius nam quidem eaque, voluptatibus reprehenderit sit sapiente iusto tenetur est molestiae perspiciatis, repellendus laboriosam quae.</p>
+
+        </div>
+        <div class="col-sm-5">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputName" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="exampleInputName" aria-describedby="name">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Rol</option>
+                <option value="1">Vendedor</option>
+                <option value="2">Comprador</option>
+              </select>
+            </div>
+            <button type="submit" class="btn btn-secondary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+</div>
+</section>
+
+<footer class="bg-dark text-white">
+  <p class="text-center p-0">
+    copyright 2021
+  </p>
+</footer>
 
